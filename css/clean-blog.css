@@ -7,8 +7,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
 body {
   font-size: 20px;
-  color: #212529;
-  font-family: 'Lora', 'Times New Roman', serif;
+  color: #fff;
+  /* font-family: 'Lora', 'Times New Roman', serif; */
+  background-color: rgb(14, 14, 14);
 }
 
 p {
@@ -24,6 +25,7 @@ h1 {
   font-weight: 300;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   letter-spacing: 8px;
+
 }
 
 h3 {
@@ -31,6 +33,12 @@ h3 {
   font-weight: 300;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+
+h2 {
+  color:rgb(179, 21, 26);
+}
+
 h2,
 h4,
 h5,
@@ -39,6 +47,9 @@ h6 {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+hr {
+  border-top:1px solid #fff;
+}
 figcaption {
   font-size: 12px;
 }
@@ -140,15 +151,17 @@ img::-moz-selection {
   }
   #mainNav .navbar-brand {
     padding: 10px 20px;
-    color: #fff;
-    font-size: 18px;
+    color:rgb(230, 22, 28);
+    font-size: 20px;
+    font-weight: 400;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: rgba(255, 255, 255, 0.8);
   }
   #mainNav .navbar-nav > li.nav-item > a {
     padding: 10px 20px;
-    color: #fff;
+    color:rgb(230, 22, 28);
+    font-size: 15px;
   }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
     color: rgba(255, 255, 255, 0.8);
@@ -197,10 +210,12 @@ img::-moz-selection {
 header.masthead {
   margin-bottom: 50px;
   background: no-repeat center center;
-  background-color: black;
+  /* background-color: black; */
+  background-image: url("../img/back.jpg");
   background-attachment: scroll;
   position: relative;
   background-size: cover;
+  height:100vh;
 }
 
 /* header.masthead .overlay {
