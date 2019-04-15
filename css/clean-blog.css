@@ -58,6 +58,23 @@ figcaption {
   font-size: 18px;
 
 }
+
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.gallery-images {
+  width:500px;
+  height:500px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  margin:10px;
+}
+
+
 a {
   color: #212529;
   -webkit-transition: all 0.2s;
@@ -211,7 +228,7 @@ header.masthead {
   margin-bottom: 50px;
   background: no-repeat center center;
   /* background-color: black; */
-  background-image: url("../img/back.jpg");
+  background-image: url("../img/about.jpg");
   background-attachment: scroll;
   position: relative;
   background-size: cover;
@@ -405,7 +422,7 @@ header.masthead .post-heading .meta a {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #0085A1;
+  color: red;
 }
 
 form .form-group:first-child .floating-label-form-group {
