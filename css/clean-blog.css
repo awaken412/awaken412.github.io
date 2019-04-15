@@ -74,7 +74,9 @@ figcaption {
   margin:10px;
 }
 
-
+.awaken-video {
+  width:100%;
+}
 a {
   color: #212529;
   -webkit-transition: all 0.2s;
